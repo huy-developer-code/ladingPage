@@ -1,0 +1,54 @@
+.wrapper
+    @include mobile
+        padding: 0
+    margin: 0 auto
+    max-width: 1440px
+    padding: 168px 50px 46px
+    .products
+        &__list
+            @include mobile
+                flex-direction: column
+                margin-bottom: 158px
+            gap: 58px
+            display: flex
+            margin: 0 auto
+            max-width: 1208px
+        &__item
+            @include mobile
+                margin-bottom: 50px
+                width: 100%
+                height: 100%
+                padding: 0px
+                overflow: visible
+            width: 370px
+            height: 478px
+            text-overflow: ellipsis
+            margin-bottom: 398px
+            &-image
+                width: 100%
+                height: 100%
+                img
+                    width: 100%
+                    height: 100%
+                    object-fit: contain
+            &-underline
+                width: 15%
+                height: 2px
+                margin: 25px 0px
+                color: #000000
+            &-title
+                margin-bottom: 28px
+                font-family: $header-title
+                font-weight: 900
+                line-height: 1
+                font-size: 36px
+                text-align: justify
+            &-detail
+                font-family: $font-primary
+                font-weight: 400
+                text-align: justify
+                display: -webkit-box
+                // text-hidden
+                -webkit-line-clamp: 4
+                -webkit-box-orient: vertical
+                overflow: hidden

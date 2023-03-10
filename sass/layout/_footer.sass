@@ -1,0 +1,50 @@
+.footer
+    @include mobile
+        padding: 0
+    padding: 115px
+    padding-right: 0
+    background: #c4c4c4
+    &__container
+        @include mobile
+            flex-direction: column
+        display: flex
+        gap: 117px
+    &__logo
+        @include mobile
+            font-size: $sizeTitle
+            width: 100%
+            padding-left: 32px
+            padding-top: 50px
+        width: 232px
+        font-size: 50px
+        font-family: $header-title
+        font-weight: bold
+        line-height: 1.1
+    &__bar
+        @include mobile
+            display: flex
+            
+        display: grid
+        grid-template-columns: auto auto auto auto
+        @include mobile
+            flex-direction: column
+        ul
+            li
+                display: block
+                list-style-type: none
+                padding-bottom: 32px
+                font-family: $font-primary
+                font-weight: 400
+    &-copyright
+        font-family: $font-primary
+        font-weight: 400
+        text-align: center
+    &__header
+        display: flex
+        flex-direction: column
+        gap: 50px
+        padding-bottom: 127px
+    &__title
+        font-size: 25px
+        font-family: $font-primary
+        font-weight: 900

@@ -1,0 +1,49 @@
+@include mobile
+
+.create
+    @include mobile 
+        padding: 52px 0px
+        margin-bottom: 158px
+    padding: 52px 108px 50px 131px
+    background: #232323
+    // text-align: center
+    &__container
+        @include mobile
+            width:100%
+            padding: 50px 0px
+        margin: 0 auto
+        color: #ffffff
+        width: 443px
+        height: 285px
+        // padding-right: 70px
+        // background: green
+        padding: 0
+        text-align: center
+    &__title
+        @include mobile
+            font-size: $sizeTitle
+            text-align: inherit
+            margin: 0
+        font-family: $header-title
+        font-size: 50px
+        line-height: 1.1
+        font-weight: 700
+        text-align: center
+        padding-bottom: 27px
+    &__subtitle
+        line-height: 1
+        padding-bottom: 40px
+        text-align: justify
+    &__btn
+        @include mobile 
+            margin: 0px auto
+            height: auto
+        width: 250px
+        height: 54px
+        border: 2px #ffffff solid
+        text-align: center
+        border-radius: 5px
+        margin: auto
+        padding: 15px 50px
+        font-family: $font-primary
+        font-weight: 900

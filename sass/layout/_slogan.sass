@@ -1,0 +1,42 @@
+.slogan
+    margin-bottom: 268px
+    &__container
+        @include mobile
+            width: 100%
+        & svg
+            margin: auto
+        width: 778px
+        margin: 0 auto
+    &__rocket
+        @include mobile
+        &:before
+            content: '\e027'
+            font-size: 40px
+            font-size: 74px
+        display: flex
+        justify-content: center
+    &__title
+        @include mobile
+            font-size: 44px
+            width: 100%
+        font-family: $header-title
+        font-weight: 900
+        padding-bottom: 80px
+        font-size: 82px
+        i
+            text-decoration-line: underline
+    &__text
+        @include mobile
+            flex-direction: column
+            padding: 0
+        display: flex
+        padding: 0
+        &:not(:frist-child)
+            border: none
+        li
+            font-family: $font-primary
+            font-weight: bold
+            font-size: 15px
+            list-style-type: none
+            border-left: 2px solid #000
+            padding: 0 5px

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BEM-SASS</title>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="sass/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/solid.min.css" integrity="sha512-bdTSJB23zykBjGDvyuZUrLhHD0Rfre0jxTd0/jpTbV7sZL8DCth/88aHX0bq2RV8HK3zx5Qj6r2rRU/Otsjk+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css" integrity="sha512-cHxvm20nkjOUySu7jdwiUxgGy11vuVPE9YeK89geLMLMMEOcKFyS2i+8wo0FOwyQO/bL8Bvq1KMsqK4bbOsPnA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js" integrity="sha512-2bMhOkE/ACz21dJT8zBOMgMecNxx0d37NND803ExktKiKdSzdwn+L7i9fdccw/3V06gM/DBWKbYmQvKMdAA9Nw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/solid.min.js" integrity="sha512-Cw3lrAMFnu1XhNZB73mT27VptT/2szZ1sn2MLnPq+ATkY0qu16il+xEQdo4wDZCAVnO8QZ12547AfBZhO9M9cw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <header>
+      <div class="header">
+        <div class="header__intro">
+          <nav>
+            <div class="top-bar__remove"><i class="fa-lg"></i></div>
+            <ul class="top-nav">
+              <li class="top-nav__item">
+                <a href="#" class="top-nav__item--active">Home</a>
+              </li>
+              <li class="top-nav__item"><a class="top-nav__item--selected" href="#">Guide</a></li>
+              <li class="top-nav__item">
+                <a href="#" class="top-nav__item--selected">Flights</a>
+              </li>
+              <li class="top-nav__item">
+                <a href="#" class="top-nav__item--selected">About</a>
+              </li>
+            </ul>
+            <div class="submit">
+              <a href="#" class="button">Contact Us</a>
+            </div>
+            <div class="top-bar__icon"><i></i></div>
+          </nav>
+          <section class="header__container">
+            <div class="header__travel">
+              <div class="header__title">Travel to your dream destination</div>
+              <div class="header__container-subtitle">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium neque, et eveniet obcaecati cumque illum, adipisci, sit
+              </div>
+              <div class="header__container-btn">Reserve Ticket</div>
+            </div>
+            <div class="header__banner">
+              <img src="images/Myanmal-travel.jpg" alt="" />
+            </div>
+          </section>
+          </div>
+          <section class="create">
+            <div class="create__container">
+              <div class="create__title">Create a memory to remember</div>
+              <div class="create__subtitle">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque vitae sint a commodi? Quibusdam quod facere libero cupiditate eaque minima nemo et provident 
+              </div>
+              <div class="create__btn">My Travel Logs</div>
+            </div>
+          </section>
+      </div>
+    </header>
+    <main>
+      <!-- products, slogan, infomation -->
+      <section class="wrapper">
+          <div class="products__list">
+            <div class="products__item">
+              <div class="products__item-image"><img src="images/explore.jpg" alt="" /></div>
+              <hr class="products__item-underline">
+              <div class="products__item-title">Lorem ipsum dolor, sit amet</div>
+              <div class="products__item-detail">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                cupiditate eos consequatur labore in minus non, error culpa?
+                Perspiciatis magni quia dolorum ab ipsa, fugit numquam ex
+                accusantium facilis reiciendis.
+              </div>
+            </div>
+            <div class="products__item">
+              <div class="products__item-image"><img src="images/famousplace.jpg" alt="" /></div>
+              <hr class="products__item-underline">
+              <div class="products__item-title">Lorem ipsum dolor, sit amet</div>
+              <div class="products__item-detail">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                voluptatum blanditiis iusto praesentium suscipit, assumenda aut
+                illo doloribus voluptate nam recusandae natus molestiae! Odit
+                provident saepe culpa architecto, perferendis est?
+              </div>
+            </div>
+            <div class="products__item">
+              <div class="products__item-image"><img src="images/trip.jpg" alt="" /></div>
+              <hr class="products__item-underline">
+              <div class="products__item-title">Lorem ipsum dolor, sit amet</div>
+              <div class="products__item-detail">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nam
+                ipsum dolorem officiis adipisci velit labore perferendis voluptate
+                dolore voluptates. Amet, repellat ipsam quae maxime soluta quos
+                accusamus natus consectetur!
+              </div>
+            </div>
+          </div>
+          <div class="slogan">
+            <div class="slogan__container">
+              <i class="fa-solid fa-rocket slogan__rocket fa-10x"></i>
+              <div class="slogan__title">
+                See places you've <i>never</i> been before
+              </div>
+              <ul class="slogan__text">
+                <li>Lorem ipsum dolor, sit amet</li>
+                <li>Lorem ipsum dolor, sit amet</li>
+                <li>Lorem ipsum dolor, sit amet</li>
+              </ul>
+          </div>
+          </div>
+          <div class="information">
+            <div class="information__banner"><img src="./images/church.jpg" alt="" /></div>
+            <div class="information-thumbnails">
+              <div class="information-thumbnails__image"><img src="./images/beach-active.jpg" alt=""></div>
+              <div class="information-thumbnails__container">
+                <div class="information-thumbnails__title">
+                  Lorem ipsum dolor sit amet consectetur
+                </div>
+                <div class="information-thumbnails__details">
+                  <div class="information-thumbnails__paragraph-one">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Perspiciatis nobis iusto ratione totam aliquam cumque laborum quod
+                    assumenda dolor, sunt saepe provident accusamus fuga quisquam
+                    consequatur? Praesentium animi harum quae.
+                  </div>
+                  <div class="information-thumbnails__paragraph-two">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Perspiciatis nobis iusto ratione totam aliquam cumque laborum quod
+                    assumenda dolor, sunt saepe provident accusamus fuga quisquam
+                    consequatur? Praesentium animi harum quae.
+                  </div>
+                </div>
+              </div>
+             <div class="information-thumbnails__icon">
+               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                 <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+             </div>
+            </div>
+          </div>
+      </section>
+      <!-- **** -->
+      <section class="travel">
+            <div class="travel__intro">
+              <div class="travel-content">
+                <div class="travel__title">Choose any where you'd like to be</div>
+                <div class="travel-desc">
+                    <div class="travel-desc__1">
+                      <div class="travel-desc__title">Lorem Ipsum dolor</div>
+                      <div class="travel-desc__subtitle">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque
+                        sint corrupti ratione. Dolor similique, culpa tenetur itaque ipsam
+                        consequuntur deleniti voluptas quisquam, dolores repudiandae
+                        doloribus reprehenderit obcaecati blanditiis, inventore
+                        voluptatibus!
+                      </div>
+                    </div>
+                  <div class="travel-text__2">
+                    <div class="travel-desc__title">Lorem Ipsum dolor</div>
+                    <div class="travel-desc__subtitle">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores,
+                      fugit earum. Ducimus dolorum itaque minima atque temporibus ex ipsam
+                      assumenda porro animi beatae corrupti aliquid repellendus obcaecati,
+                      ut blanditiis voluptas?
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="travel-img">
+                <img src="./images/countryside.jpg" alt="">
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- table todos -->
+      <section class="box-writer">
+        <div class="box-writer__intro">
+          <div class="box-writer__container">
+            <div class="box-writer__title">
+              Lorem ipsum dolor sit amet consectetur
+            </div>
+            <div class="box-writer__table">
+              <div class="box-writer__todo">
+                <div class="box-writer__todo-name">Lorem ipsum dolor sit amet consectetur</div>
+                <i class="fa-solid fa-plus box-writer__plus"></i>
+              </div>
+              <div class="box-writer__todo">
+                <div class="box-writer__todo-name">Lorem ipsum dolor sit amet consectetur</div>
+                <i class="fa-solid fa-plus box-writer__plus"></i>
+              </div>
+              <div class="box-writer__todo">
+                <div class="box-writer__todo-name">Lorem ipsum dolor sit amet consectetur</div>
+                <i class="fa-solid fa-plus box-writer__plus"></i>
+              </div>
+              <div class="box-writer__todo">
+                <div class="box-writer__todo-name">Lorem ipsum dolor sit amet consectetur</div>
+                <i class="fa-solid fa-plus box-writer__plus"></i>
+              </div>
+            </div>
+          </div>
+          <img src="../images/tourims.jpg" alt="" />
+        </div>
+      </section>
+      <!-- slick -->
+      <section class="slider">
+        <div class="slider__title">Here's what they have to say...</div>
+        <div class="slider__slick">
+          <span id="prev"><i></i></span>
+          <div class="slider__carousel">
+            <img src="https://cdn.dribbble.com/userupload/5128561/file/original-4ce444728a1c045bf4e5270faa72cb0f.jpg?compress=1&resize=1024x767" alt="" draggable="false" >
+            <img src="https://cdn.dribbble.com/userupload/4841931/file/original-bb40937f7dc59dff6208e1c8f30bc6cf.jpg?compress=1&resize=1024x714" alt="" draggable="false">
+            <img src="https://cdn.dribbble.com/users/1802972/screenshots/5595295/media/828f611921c774c17853cc8b8b1fe3a6.png?compress=1&resize=768x576&vertical=top" alt="" draggable="false">
+            <img src="https://cdn.dribbble.com/users/1802972/screenshots/5492696/media/78d1c988e08e4992724c2ea71ef5e5a4.jpg?compress=1&resize=320x240&vertical=top" alt="" draggable="false">
+            <img src="https://cdn.dribbble.com/userupload/5118298/file/original-23ceed18c85dff31c98b497ffc6fcc99.png?compress=1&resize=1024x768" alt="" draggable="false">
+            <img src="https://cdn.dribbble.com/userupload/5116160/file/original-cbdfc3c3e32c180b7f2364c68e3ca787.jpg?compress=1&resize=320x240&vertical=top" alt="" draggable="false">
+          </div>
+          <span id="next"><i></i></span>
+        </div>
+      </section> 
+      <!-- form  -->
+      <section class="sign-up">
+        <div class="sign-up__intro">
+          <div class="sign-up__container">
+            <div class="sign-up__header">Be updated</div>
+            <div class="sign-up__form">
+              <input type="text" placeholder="Frist Name" />
+              <input placeholder="Last Name" type="text" /><input
+                type="text"
+                placeholder="Email Subject*"
+              />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Write something here..."
+              ></textarea>
+              <div class="sign-up__btn"><a href="" class="button">Submit Email</a></div>
+            </div>
+          </div>
+          <div class="sign-up__img">
+            <img src="./images/best-time-to-travel.jpg" alt="">
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__logo">My Log Travel</div>
+        <div class="footer__header">
+          <ul class="footer__title">Quick Links</ul>
+          <div class="footer__bar">
+            <ul>
+              <li>Home</li>
+              <li>About Us</li>
+              <li>My Travel Logs</li>
+            </ul>
+            <ul>
+              <li>Travels</li>
+              <li>Promo Flights</li>
+              <li>Travel Routes</li>
+            </ul>
+            <ul>
+              <li>Recommmemdations</li>
+              <li>Guides</li>
+              <li>BLogs</li>
+            </ul>
+            <ul>
+              <li>Mission Statement</li>
+              <li>The Team</li>
+              <li>Contact Us</li>
+            </ul>
+        </div>
+        </div>
+      </div>  
+      <div class="footer-copyright">
+        2021-2022 My Log Travel. All Rights Reserved
+      </div>
+      </ul>
+    </footer>
+    <script src="js/script.js"></script>
+    <Script src="Js/menubar.js"></Script>
+    </script>
+  </body>
+</html>

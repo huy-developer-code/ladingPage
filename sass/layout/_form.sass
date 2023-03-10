@@ -1,0 +1,59 @@
+.sign-up
+    @include mobile
+        width: 90%
+    max-width: 1112px
+    margin: 0 auto
+    padding-bottom: 213px
+    &__intro
+        @include mobile
+            flex-direction: column
+        display: grid
+        grid-template-columns: auto auto
+        display: flex
+        gap: 85px
+    &__container
+        grid-column-start: 1
+        grid-column-end: 1
+    &__header
+        @include mobile
+            font-size: $sizeTitle
+        font-family: $header-title
+        font-size: 80px
+        font-weight: 700
+        margin-bottom: 34px
+        line-height: 1.1
+    &__form
+        display: flex
+        flex-direction: column
+        gap: 22px
+        input,textarea
+            border: 2px solid black
+            border-radius: 5px
+            padding: 16px 28px
+    &__btn
+        @include mobile
+            width: 100%
+            height: 100%
+            margin: 0
+            padding: 16px 0px
+            font-size: 20px
+        width: 458px
+        height: 66px
+        text-align: center
+        background: $color-primary
+        color: #ffffff
+        font-family: $font-primary
+        font-size: 25px
+        padding-top: 16px
+        border-radius: 5px
+        margin-top: 58px
+        .button
+            text-decoration: none
+            color: #ffffff
+    &__img
+        grid-column-start: 2
+        grid-column-end: 2
+        & img
+            width: 100%
+            height: 100%
+            object-fit: cover
