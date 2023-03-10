@@ -220,8 +220,10 @@
 }
 .header__container-subtitle {
   font-family: "Lato", sans-serif;
-  line-height: 1;
   font-size: 12px;
+  max-width: 240px;
+  line-height: 1.5;
+  text-align: justify;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .header__container-subtitle {
@@ -387,7 +389,7 @@
 }
 .slogan__text {
   display: flex;
-  padding-left: 65px;
+  padding: 0;
 }
 @media (max-width: 479px) {
   .slogan__text {
@@ -699,7 +701,6 @@
   line-height: 1.1;
   font-size: 80px;
   font-weight: 700;
-  max-width: 326px;
   text-align: center;
 }
 @media (max-width: 479px) {
@@ -728,7 +729,6 @@
   align-items: center;
   height: 60px;
   border-top: 3px black solid;
-  padding: 20px 38px;
 }
 @media (max-width: 479px) {
   .box-writer__todo {
